@@ -1,5 +1,5 @@
 {
-  "name": "npm-release",
+  "name": "npm-release-test",
   "version": "1.0.0",
   "description": "NPM release test",
   "main": "index.js",
