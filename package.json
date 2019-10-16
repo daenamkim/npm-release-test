@@ -8,6 +8,8 @@
     "build": "tsc",
     "build:watch": "tsc --watch",
     "lint": "tslint --project \"./tsconfig.json\"",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js - - -R spec",
+    "ci": "yarn lint && yarn build && yarn cover",
     "docs": "typedoc --out docs src",
     "gh-pages": "rimraf docs && yarn docs && gh-pages -d docs"
   },
