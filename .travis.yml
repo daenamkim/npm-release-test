@@ -2,8 +2,8 @@ language: node_js
 node_js:
   - stable
 install:
-  - npm install
+  - yarn install
 script:
-  - npm run test
+  - yarn test
 before_script:
-  - npm run build
+  - yarn build
