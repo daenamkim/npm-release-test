@@ -1,7 +1,7 @@
 {
-  "name": "npm-release-test",
+  "name": "npm-release-daenamkim",
   "version": "1.0.0",
-  "description": "NPM release test",
+  "description": "NPM release by Daenam Kim",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec",
