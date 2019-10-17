@@ -2,7 +2,7 @@
   "name": "npm-release-daenamkim",
   "version": "1.0.2",
   "description": "NPM release by Daenam Kim",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "mocha --reporter spec",
     "build": "tsc",
@@ -21,10 +21,7 @@
     "npm",
     "release"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/daenamkim/npm-release-test.git"
-  },
+  "repository": "daenamkim/npm-release-test",
   "author": "Daenam Kim",
   "license": "MIT",
   "devDependencies": {
