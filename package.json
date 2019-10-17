@@ -14,13 +14,18 @@
     "prepublishOnly": "yarn ci",
     "preversion": "yarn ci",
     "docs": "typedoc --out docs src",
-    "gh-pages": "rimraf docs && yarn docs && gh-pages -d docs"
+    "gh-pages": "rimraf docs && yarn docs && gh-pages -d docs",
+    "clean": "rimraf coverage dist docs node_modules"
   },
   "keywords": [
     "npm",
     "release"
   ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daenamkim/npm-release-test.git"
+  },
+  "author": "Daenam Kim",
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.2.3",
