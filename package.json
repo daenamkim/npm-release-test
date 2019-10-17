@@ -1,6 +1,6 @@
 {
   "name": "npm-release-daenamkim",
-  "version": "1.0.5-omega.0",
+  "version": "1.0.5",
   "description": "NPM release by Daenam Kim",
   "main": "dist/index.js",
   "scripts": {
