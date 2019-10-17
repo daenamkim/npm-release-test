@@ -5,8 +5,6 @@
 
 
 - Basically follow [Reference](https://medium.com/@nilayvishwakarma/build-an-npm-package-with-typescript-by-nilay-vishwakarma-f303d7072f80)
-
-- Set `test.js` to `test.spec.js` to void warning on `npm publish`
 - Replace a demo function as below because I want to compare to types too
   ```ts
   export function IsNullOrEmpty(str: string): boolean {
