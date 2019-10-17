@@ -31,9 +31,9 @@ For JavaScript
 ```js
 const test = require('npm-release-daenamkim');
 
-console.log(test.IsNullOrEmpty(undefined)); // true
-console.log(test.IsNullOrEmpty(null)); // true
-console.log(test.IsNullOrEmpty('')); // true
+console.log(test.IsNullOrEmpty(undefined));
+console.log(test.IsNullOrEmpty(null));
+console.log(test.IsNullOrEmpty(''));
 console.log(test.IsNullOrEmpty('a')); // false
 ```
 
@@ -42,8 +42,8 @@ For TypeScript
 ```js
 import * as test from 'npm-release-daenamkim';
 
-console.log(test.IsNullOrEmpty(undefined)); // true
-console.log(test.IsNullOrEmpty(null)); // true
-console.log(test.IsNullOrEmpty('')); // true
+console.log(test.IsNullOrEmpty(undefined));
+console.log(test.IsNullOrEmpty(null));
+console.log(test.IsNullOrEmpty(''));
 console.log(test.IsNullOrEmpty('a')); // false
 ```
