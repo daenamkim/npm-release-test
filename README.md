@@ -13,3 +13,37 @@
   ```
 - Must run `npm version [YOUR VERSION]` to run `preversion` and `postversion`, add a tag in GitHub repo before `npm publish`
 - Do not add `dist/` in `.npmignore`, it must be included but `coverage/` and `test/`
+
+Install
+
+```sh
+$ yarn add npm-release-daenamkim
+```
+
+or
+
+```sh
+$ npm install npm-release-daenamkim
+```
+
+For JavaScript
+
+```js
+const test = require('npm-release-daenamkim');
+
+console.log(test.IsNullOrEmpty(undefined)); // true
+console.log(test.IsNullOrEmpty(null)); // true
+console.log(test.IsNullOrEmpty('')); // true
+console.log(test.IsNullOrEmpty('a')); // false
+```
+
+For TypeScript
+
+```js
+import * as test from 'npm-release-daenamkim';
+
+console.log(test.IsNullOrEmpty(undefined)); // true
+console.log(test.IsNullOrEmpty(null)); // true
+console.log(test.IsNullOrEmpty('')); // true
+console.log(test.IsNullOrEmpty('a')); // false
+```
