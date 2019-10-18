@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/daenamkim/npm-release-test.svg?branch=master)](https://travis-ci.org/daenamkim/npm-release-test)
 [![Coverage Status](https://coveralls.io/repos/github/daenamkim/npm-release-test/badge.svg?branch=master)](https://coveralls.io/github/daenamkim/npm-release-test?branch=master)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdaenamkim%2Fnpm-release-test.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdaenamkim%2Fnpm-release-test?ref=badge_shield)
 
 
 - Basically follow [Reference](https://medium.com/@nilayvishwakarma/build-an-npm-package-with-typescript-by-nilay-vishwakarma-f303d7072f80)
@@ -47,3 +48,7 @@ console.log(test.IsNullOrEmpty(null));
 console.log(test.IsNullOrEmpty(''));
 console.log(test.IsNullOrEmpty('a')); // false
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdaenamkim%2Fnpm-release-test.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdaenamkim%2Fnpm-release-test?ref=badge_large)
