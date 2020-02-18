@@ -1,6 +1,7 @@
 # NPM Release Test
 
 [![Build Status](https://travis-ci.org/daenamkim/npm-release-test.svg?branch=master)](https://travis-ci.org/daenamkim/npm-release-test)
+![](https://github.com/daenamkim/npm-release-test/workflows/NPM%20Release%20Test%20CI/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/daenamkim/npm-release-test/badge.svg?branch=master)](https://coveralls.io/github/daenamkim/npm-release-test?branch=master)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdaenamkim%2Fnpm-release-test.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdaenamkim%2Fnpm-release-test?ref=badge_shield)
 
