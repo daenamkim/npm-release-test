@@ -4,7 +4,7 @@
   "description": "NPM release by Daenam Kim",
   "main": "dist/index.js",
   "scripts": {
-    "test": "mocha --reporter spec",
+    "test": "yarn build && mocha --reporter spec",
     "build": "tsc",
     "build:watch": "tsc --watch",
     "lint": "tslint --project \"./tsconfig.json\"",
